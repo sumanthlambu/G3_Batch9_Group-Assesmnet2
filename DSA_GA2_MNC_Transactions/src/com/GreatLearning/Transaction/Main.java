@@ -15,10 +15,10 @@ public class Main {
 		input.add(root.data);
 		root.leftNode = new Node(30);
 		input.add(root.leftNode.data);
+		root.rightNode = new Node(60);
+		input.add(root.rightNode.data);		
 		root.leftNode.leftNode = new Node(10);
 		input.add(root.leftNode.leftNode.data);
-		root.rightNode = new Node(60);
-		input.add(root.rightNode.data);
 		root.rightNode.leftNode = new Node(55);
 		input.add(root.rightNode.leftNode.data);
 
